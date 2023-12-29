@@ -44,72 +44,97 @@
 
     <!-- Navbar Start -->
     <div class="container-fluid position-relative p-0 py-4">
-        <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-            <a href="index.html" class="navbar-brand p-0">
-                <h1 class="m-0" style="color: black;">VortexWeb</h1>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
-                <div class="navbar-nav " style="margin-left: auto;">
-                    <a href="index.html" class="nav-item nav-link " style="color: black;">Home</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color: black;">AboutUs</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="#" class="dropdown-item">Pricing Plan</a>
-                            <a href="#" class="dropdown-item">Our features</a>
-                            <a href="#" class="dropdown-item">Team Members</a>
-                            <a href="#" class="dropdown-item">Testimonial</a>
-                            <a href="#" class="dropdown-item">Free Quote</a>
-                        </div>
-                    </div>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color: black;">Services</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="#" class="dropdown-item">Pricing Plan</a>
-                            <a href="#" class="dropdown-item">Our features</a>
-                            <a href="#" class="dropdown-item">Team Members</a>
-                            <a href="#" class="dropdown-item">Testimonial</a>
-                            <a href="#" class="dropdown-item">Free Quote</a>
-                        </div>
-                    </div>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color: black;">Support & Training</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="#" class="dropdown-item">Pricing Plan</a>
-                            <a href="#" class="dropdown-item">Our features</a>
-                            <a href="#" class="dropdown-item">Team Members</a>
-                            <a href="#" class="dropdown-item">Testimonial</a>
-                            <a href="#" class="dropdown-item">Free Quote</a>
-                        </div>
-                    </div>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color: black;">Collabs</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="bitrix24.html" class="dropdown-item">Bitrix24</a>
-                            <a href="pipedrive.html" class="dropdown-item">Pipedrive</a>
-                            <a href="kommo.html" class="dropdown-item">Kommo</a>
-                            <a href="#" class="dropdown-item">Testimonial</a>
-                            <a href="#" class="dropdown-item">Free Quote</a>
-                        </div>
-                    </div>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color: black;">ContactUs</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="#" class="dropdown-item">Pricing Plan</a>
-                            <a href="#" class="dropdown-item">Our features</a>
-                            <a href="#" class="dropdown-item">Team Members</a>
-                            <a href="#" class="dropdown-item">Testimonial</a>
-                            <a href="#" class="dropdown-item">Free Quote</a>
-                        </div>
-                    </div>
+        <header id="header" class="fixed-top">
+            <div class="container d-flex align-items-center justify-content-lg-between">
+        
+              <h1 class="logo me-auto me-lg-0" ><a href="index.html" style="color: #000;">VortexWeb</a></h1>
+              <!-- Uncomment below if you prefer to use an image logo -->
+              <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        
+              <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                  <li class="dropdown"><a href="#" style="color: #000;"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                      <li class="dropdown"><a href="#"><span>Bitrix24 </span> <i class="bi bi-chevron-right"></i></a>
+                        <ul>
+                            <li class="dropdown"><a href="#"><span>Implementation Services</span> <i class="bi bi-chevron-right"></i></a>
+                              <ul>
+                                <li><a href="#">Initial Implementation</a></li>
+                                <li><a href="#">Custom Implementation</a></li>
+                              </ul>
+                            </li>
+                          </li>
+                            <li class="dropdown"><a href="#" ><span>Business Process Solutions</span> <i class="bi bi-chevron-right"></i></a>
+                              <ul>
+                                <li><a href="#">Business Process Automation</a></li>
+                              </ul>
+                           </li>
+                          </li>
+                          <li class="dropdown"><a href="#"><span>Ongoing Support</span> <i class="bi bi-chevron-right"></i></a>
+                            <ul>
+                              <li><a href="#">Portal Maintenance</a></li>
+                              <li><a href="#">Cloud Support</a></li>
+                              <li><a href="#">User Support and Consulting</a></li>
+                            </ul>
+                         </li>
+                        <li class="dropdown"><a href="#"><span>Design and Development</span> <i class="bi bi-chevron-right"></i></a>
+                          <ul>
+                            <li><a href="#">Landing Page Design</a></li>
+                            <li><a href="#">E-commerce</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown"><a href="#"><span>Training Services</span> <i class="bi bi-chevron-right"></i></a>
+                          <ul>
+                            <li><a href="#">Custom training</a></li>
+                            <li><a href="#">Employee training</a></li>
+                          </ul>
+                        </li>
+                          </li>
+                         
+                        </ul>
+                      </li>
+                      <li class="dropdown"><a href="#"><span>Pipedrive</span> <i class="bi bi-chevron-right"></i></a>
+                        <ul>
+                          <li><a href="#">Pipedrive Initial Integration</a></li>
+                          <li><a href="#">Custom Pipedrive Implementation</a></li>
+                          <li><a href="#">Portal Maintenance</a></li>
+                          <li><a href="#">Cloud Support</a></li>
+                        </ul>
+                      </li>
+                      
+                      <li><a href="#">Drop Down 3</a></li>
+                      <li><a href="#">Drop Down 4</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="#" style="color: #000;"><span>Industry Based solution</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                      <li><a href="#">Real estate</a></li>
+                      <li><a href="#">Manufacturing</a></li>
+                      <li><a href="#">IT sector</a></li>
+                      <li><a href="#">NGO</a></li>
+                      <li><a href="#">E-commerce</a></li>
+                      <li><a href="#">Restaurants</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="#" style="color: #000;"><span>Collaborations</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                      
+                      <li><a href="bitrix24.html">Bitrix24</a></li>
+                      <li><a href="pipedrive.html">Pipedrive</a></li>
+                      <li><a href="kommo.html">Kommo</a></li>
+                    </ul>
+                  </li>
+                </ul>
+           
+        
+                <i class="bi bi-list mobile-nav-toggle"></i>
+              </nav><!-- .navbar -->  
 
-                </div>
-                
-                    <a href="https://calendly.com/services-vortexweb/30min?month=2023-12" class="btn btn-primary  py-2 px-4 ms-3 ms-auto" >Get Started</a>
+              <a href="https://calendly.com/services-vortexweb/30min?month=2023-12"
+              class="btn    py-2  " style="background-color: #2e2a27; border-color: #2e2a27; color: #fff;">Get Started</a>
+             
             </div>
-        </nav>
+          </header><!-- End Header -->
     </div> 
     <!-- Navbar End -->
 
@@ -127,7 +152,7 @@
                         <input type="text" class="form-control bg-transparent border-primary p-3"
                             placeholder="Type search keyword">
                         <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </div>
@@ -279,7 +304,7 @@
 
     <!-- FEATURES PIPEDRIVE -->
     
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="background-color:  #0E0142;">
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="background-color:  #e8e2da">
         <div class="container py-5 ">
             <div class="text-center position-relative pb-3 mb-1 mx-auto">
                 <h1 class="mb-0" style="color: #ffffff; font-family: Haffer,sans-serif; font-size: 4rem;">Get Kommo free for 14 days</h1>
